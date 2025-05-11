@@ -4,7 +4,7 @@ import { View, Text, ScrollView, StyleSheet, Image, ActivityIndicator, I18nManag
 import * as Animatable from 'react-native-animatable';
 import { getRecipeById } from './recipeService';
 import { RecipeCategory } from '../models/recipe';
-import splashIcon from '../../assets/foody.jpg';
+import splashIcon from '../../assets/logo.png';
 
 const ViewRecipeScreen = ({ route }) => {
   const { recipeId } = route.params;
@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#000',
     height: '100%',
     padding: 20,
+    direction: 'rtl',
     alignItems: 'flex-end',               // יישור ימני ל־RTL
   },
   imageContainer: {

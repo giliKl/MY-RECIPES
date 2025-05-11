@@ -292,6 +292,7 @@ const styles = StyleSheet.create({
     padding: 20,
     height: 'auto',
     alignItems: 'center',
+    direction: 'rtl',
   },
   form: {
     width: '100%',

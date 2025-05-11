@@ -161,6 +161,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#ffffff',
         padding: 20,
+        direction: 'rtl', 
     },
     title: {
         fontSize: 26,
