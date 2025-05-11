@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MyRecipesApp",
+    "slug": "MyRecipesApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-icon .png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon .png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash-icon .png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gilak.MyRecipesApp"
+    },
+    "web": {
+      "favicon": "./assets/splash-icon .png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "482fc6fb-7e9f-465d-9239-878a624f904e"
+      }
+    }
+  }
+}
