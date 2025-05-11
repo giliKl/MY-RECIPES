@@ -16,20 +16,14 @@ const Home = ({ navigation }) => {
                 <Text style={styles.title}>ברוכים הבאים לעולם של טעמים וריחות</Text>
             </View>
             {/* תיאור עם רקע תמונה מטושטשת */}
-            <ImageBackground
-                source={splashIcon}
-                style={styles.backgroundImage}
-                imageStyle={{ opacity: 0.3 }}
-                blurRadius={3}
-            >
+            
                 <Text style={styles.description}>
                     באפליקציית המתכונים שלנו 
-                    תוכלו ליצור, לגלות ולשתף מתכונים משובחים!
-                    בין אם אתם בשלנים מתחילים או שפים מנוסים – 
-                    כאן תמצאו השראה ורעיונות.
-                    הצטרפו לחוויה קולינרית שלא תשכחו!
                 </Text>
-            </ImageBackground>
+                <Text style={styles.description}>תוכלו ליצור, לגלות ולשתף מתכונים משובחים!</Text>
+                <Text style={styles.description}>בין אם אתם בשלנים מתחילים או שפים מנוסים –</Text>
+                <Text style={styles.description}>כאן תמצאו השראה ורעיונות.</Text>
+                <Text style={styles.description}>הצטרפו לחוויה קולינרית שלא תשכחו!</Text>
 
 
             {/* כפתור הוספת מתכון */}
@@ -91,6 +85,7 @@ const styles = StyleSheet.create({
         lineHeight: 24,
         padding: 10,
         writingDirection: 'rtl',
+        fontWeight: '600',
 
     },
     button: {
