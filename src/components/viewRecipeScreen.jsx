@@ -77,7 +77,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#000',
     height: '100%',
     padding: 20,
-    direction: 'rtl',
     alignItems: 'flex-end',               // יישור ימני ל־RTL
   },
   imageContainer: {
